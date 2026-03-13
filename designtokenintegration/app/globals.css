@@ -1,19 +1,18 @@
 @import "tailwindcss";
 
 @theme {
-  /* 1. Map your Figma variables to Tailwind names */
-  --color-primary: var(--figma-primary-color, #3b82f6);
-  --color-primary-fg: var(--figma-fg-color, #ffffff);
-  --color-secondary: var(--figma-secondary-color, #1e293b);
-
-  /* 2. Define custom spacing/sizing tokens */
-  --spacing-hero-pad: var(--figma-hero-padding, 5rem);
-  --spacing-stack-lg: var(--figma-stack-lg, 2rem);
-
-  /* 3. Define custom radius */
-  --radius-btn: var(--figma-radius-button, 0.5rem);
-
-  /* 4. Define custom typography */
-  --font-size-hero-title: var(--figma-hero-size, 3.75rem);
-  --line-height-hero-title: 1.1;
+  /* Primary Color Scale */
+  --color-p-50: var(--figma-p-50, #eff6ff);
+  --color-p-100: var(--figma-p-100, #dbeafe);
+  --color-p-200: var(--figma-p-200, #bfdbfe);
+  --color-p-300: var(--figma-p-300, #93c5fd);
+  --color-p-400: var(--figma-p-400, #60a5fa);
+  --color-p-500: var(--figma-p-500, #3b82f6);
+  --color-p-600: var(--figma-p-600, #2563eb);
+  --color-p-700: var(--figma-p-700, #1d4ed8);
+  --color-p-800: var(--figma-p-800, #1e40af);
+  --color-p-900: var(--figma-p-900, #1e3a8a);
+  --color-p-1000: var(--figma-p-1000, #172554);
 }
+
+
