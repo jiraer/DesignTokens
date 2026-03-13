@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  /* 1. Map your Figma variables to Tailwind names */
+  --color-primary: var(--figma-primary-color, #3b82f6);
+  --color-primary-fg: var(--figma-fg-color, #ffffff);
+  --color-secondary: var(--figma-secondary-color, #1e293b);
+
+  /* 2. Define custom spacing/sizing tokens */
+  --spacing-hero-pad: var(--figma-hero-padding, 5rem);
+  --spacing-stack-lg: var(--figma-stack-lg, 2rem);
+
+  /* 3. Define custom radius */
+  --radius-btn: var(--figma-radius-button, 0.5rem);
+
+  /* 4. Define custom typography */
+  --font-size-hero-title: var(--figma-hero-size, 3.75rem);
+  --line-height-hero-title: 1.1;
+}
