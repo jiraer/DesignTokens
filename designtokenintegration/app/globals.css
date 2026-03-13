@@ -1,18 +1,13 @@
 @import "tailwindcss";
+@import "../styles/tokens.css";
 
 @theme {
-  /* Primary Color Scale */
-  --color-p-50: var(--figma-p-50, #eff6ff);
-  --color-p-100: var(--figma-p-100, #dbeafe);
-  --color-p-200: var(--figma-p-200, #bfdbfe);
-  --color-p-300: var(--figma-p-300, #93c5fd);
-  --color-p-400: var(--figma-p-400, #60a5fa);
-  --color-p-500: var(--figma-p-500, #3b82f6);
-  --color-p-600: var(--figma-p-600, #2563eb);
-  --color-p-700: var(--figma-p-700, #1d4ed8);
-  --color-p-800: var(--figma-p-800, #1e40af);
-  --color-p-900: var(--figma-p-900, #1e3a8a);
-  --color-p-1000: var(--figma-p-1000, #172554);
+  /* Use p-50 as main dark primary */
+  --color-primary: var(--color-p-50);
+
+  /* Use p-900 as light text color */
+  --color-primary-fg: var(--color-p-800);
+
+  /* Optional secondary */
+  --color-secondary: var(--color-p-300);
 }
-
-
